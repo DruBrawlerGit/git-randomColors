@@ -104,3 +104,5 @@ function getColorsfromHash() {
 }
 
 setRandomsColors(true) //вызываем функцию замены цвета
+
+console.log('test')
