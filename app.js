@@ -63,7 +63,7 @@ function setRandomsColors(isInitial) {
     const color = isInitial
       ? colors[index]
         ? colors[index] //Проверка пустого массива
-        : chroma.random()
+        : chroma.random() //то
       : chroma.random() //генерируем цвет с помощью доп библиотеки
 
     if (!isInitial) {
